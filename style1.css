@@ -1,0 +1,79 @@
+* {
+    font-family: "Jaro", sans-serif;
+    font-weight: 400;
+    margin: 0px;
+    padding: 0px;
+}
+
+.container {
+    width: 100%;
+    position: relative;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 100px;
+    width: 85%;
+    align-items: center;
+    /* To vertically place child elements center */
+}
+
+ul li {
+    display: inline;
+    margin: 10px 25px;
+}
+
+.link {
+    font-size: 21px;
+}
+
+.link:hover {
+    color: red;
+}
+#last_name{
+    color: orange;
+}
+.title{
+    margin-left: 8%;
+    margin-top: 11%;
+}
+.title h1{
+    font-size: 60px;
+    font-weight: 800;
+}
+.title p{
+    font-size: 20px;
+    margin-top: 20px;
+    margin-bottom: 40px;
+}
+.title a{
+    text-decoration: none;
+    background-color: black;
+    color: white;
+    padding: 10px 30px;
+    border-radius: 7px;
+    font-size: 18px;
+}
+.images{
+    width: 45%;
+    height: 80%;
+    position: absolute;
+    right: 30px;
+    bottom: 0px;
+    top: 200px;
+}
+.imagegroup{
+    position: absolute;
+    height: 100%;
+    bottom: 0px;
+    left:50%;
+    transform: translate(-50%);
+    transition: bottom 1s, left 2s;;
+}
+.images:hover #shape{
+    bottom: 70Px;
+}
+.images:hover #girl{
+    left: 40%;
+}
